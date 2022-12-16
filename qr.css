@@ -1,0 +1,49 @@
+body {
+  background-color: gray;
+  margin: 0;
+  padding: 0;
+}
+main {
+  height: 100%;
+  width: 100%;
+}
+.conaitnar {
+  max-width: 20rem;
+  box-sizing: border-box;
+  margin: auto;
+  margin-top: 10px;
+  background-color: #fff;
+  box-shadow: 0rem 1.5625rem 1.5625rem rgba(0, 0, 0, 0.0476518);
+  border-radius: 20px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+.qrcodearea {
+  max-width: 18rem;
+  aspect-ratio: 1/1;
+  background: blue;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  background-image: url(/images/image-qr-code.png);
+  background-size: cover;
+}
+h1,
+p {
+  font-family: "Outfit";
+}
+
+h1 {
+  font-size: 1.375rem;
+  text-align: center;
+}
+
+p {
+  font-size: 0.9375rem;
+  text-align: center;
+  color: gray;
+}
+.cardContent {
+  padding: 0rem 0.5rem;
+}
